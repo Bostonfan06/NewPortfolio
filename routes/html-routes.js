@@ -10,7 +10,7 @@ res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 app.get('/home', function(req, res){
-res.sendFile(path.join(__dirname + '/landing.html'));
+res.sendFile(__dirname + '/landing.html');
 });
 
 app.get('/work', function(req, res){

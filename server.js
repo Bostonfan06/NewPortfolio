@@ -14,19 +14,19 @@ app.get('/', function(req, res){
 });
 
 app.get('/home', function(req, res){
-    res.sendFile(path.join(__dirname + '/landing.html'))
+    res.sendFile(path.join(__dirname + '/public/' + '/landing.html'))
 });
 
 app.get('/work', function(req, res){
-    res.sendFile(path.join(__dirname + '/work.html'))
+    res.sendFile(__dirname + '/public/' + '/work.html')
 });
 
 app.get('/about', function(req, res){
-    res.sendFile(path.join(__dirname + '/about.html'))
+    res.sendFile(path.join(__dirname + '/public/' + '/about.html'))
 });
 
 app.get('/contact', function(req, res){
-    res.sendFile(path.join(__dirname + '/contact.html'))
+    res.sendFile(path.join(__dirname + '/public/' + '/contact.html'))
 });
 
 require('./routes/html-routes.js')(app)
