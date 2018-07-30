@@ -2,19 +2,26 @@
     background: black
 }
 
+body {
+    background-image: url("/assets/images/beachbackground.jpg")
+}
+
 h1 {
     text-align: center;
     margin-top: 10px;
+    color: white
 }
 
 p {
     text-align: center;
-    margin-top: 5px
+    margin-top: 5px;
+    color: white
 }
 
 h5 {
     text-align: center;
-    margin-top: 5px
+    margin-top: 5px;
+    color: white
 }
 
 #followme {
