@@ -25,7 +25,8 @@ h5 {
 }
 
 #followme {
-    text-align: center
+    text-align: center;
+    color: white
 }
 
 .socialcontent {
@@ -38,16 +39,19 @@ h5 {
     background: black;
     width: 40px;
     height: 40px;
+    color: white
 }
 
 #stackoverflow {
     background: black;
     width: 40px;
     height: 40px;
+    color: white
 }
 
 #linkedin {
     background: black;
     width: 40px;
     height: 40px;
+    color: white
 }
