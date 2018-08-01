@@ -3,8 +3,11 @@
 }
 
 body {
-    background-image: url("/assets/images/beachbackground.jpg")
+    background-image: url("/assets/images/americanflag.jpg");
+    width: 100%;
 }
+
+#brand { font-family: vonique;}
 
 h1 {
     text-align: center;
