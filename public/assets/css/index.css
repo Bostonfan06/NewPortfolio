@@ -3,7 +3,12 @@
 }
 
 #wave {
-    width: 100%;
+    background-image: url("/assets/images/wave.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 5px
 }
 
