@@ -2,6 +2,11 @@
     background: black
 }
 
+#wave {
+    width: 100%;
+    margin-top: 5px
+}
+
 #followme {
     text-align: center
 }
