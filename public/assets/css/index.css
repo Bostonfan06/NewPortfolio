@@ -1,5 +1,10 @@
 #mainNav {
-    background: black
+    background: whitesmoke
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px
 }
 
 #wave {
@@ -10,6 +15,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5px
+}
+
+a {
+    color: black
+}
+
+h1 {
+    text-align: center
 }
 
 #followme {
