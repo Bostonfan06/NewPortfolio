@@ -17,12 +17,34 @@
     margin-top: 0px
 }
 
+#title {
+    display: block;
+    text-align: right;
+    color: white;
+    margin-left: auto;  
+    margin-right: 45px;
+    padding-top: 270px;
+}
+
+#name {
+    text-align: right
+}
+
 a {
     color: black
 }
 
 h1 {
-    text-align: center
+    text-align: left
+}
+
+#beach {
+    background-image: url("/assets/images/beachbackground.jpg");
+    height: 400px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px
 }
 
 #followme {
