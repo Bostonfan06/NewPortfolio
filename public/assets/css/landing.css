@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/images/hawaiibeach.jpg")
+    background: black
 }
 
 #content {
@@ -7,7 +7,22 @@ body {
     margin-left: auto;
     margin-left: 25px;
     padding-top: 150px;
-    text-align: left
+    text-align: center
+}
+
+#work {
+    background-image: url("/assets/images/underwater.jpg");
+    background-position: top
+}
+
+#jungle {
+    background-image: url("/assets/images/jungle.jpg");
+    background-position: bottom
+}
+
+#mountainsnow {
+    background-image: url("/assets/images/mountainsnow.jpg");
+    background-position: center
 }
 
 a {
