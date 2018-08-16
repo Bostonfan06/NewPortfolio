@@ -9,38 +9,22 @@
     <title>Work</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md text-uppercase" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="/">SEAN MCPHEETERS</a>
-          <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fa fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/work">WORK</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/about">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-</nav>
+  
+    <div class="container-fluid">
+        <div id="mySidenav" class="sidenav">
+            <a href="/work" id="work">WORK</a>
+            <a href="/about" id="about">ABOUT</a>
+            <a href="/contact" id="contact">CONTACT</a>
+      </div> 
+      
+      <h1>WORK</h1>
 
-<div class="container-fluid">
-  <h1>WORK</h1>
-
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')">Show All</button>
-  <button class="btn" onclick="filterSelection('nature')">Applications</button>
-  <button class="btn" onclick="filterSelection('cars')">Websites</button>
-  <button class="btn" onclick="filterSelection('people')">Graphics</button>
-</div>
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')">Show All</button>
+        <button class="btn" onclick="filterSelection('nature')">Applications</button>
+        <button class="btn" onclick="filterSelection('cars')">Websites</button>
+        <button class="btn" onclick="filterSelection('people')">Graphics</button>
+      </div>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
