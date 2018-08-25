@@ -5,167 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>>
     <link rel="stylesheet" type="text/css" href="assets/css/work.css">
     <title>Work</title>
 </head>
 <body>
-  
-    <div class="container-fluid">
-        <div id="mySidenav" class="sidenav">
-            <a href="/work" id="work">WORK</a>
-            <a href="/about" id="about">ABOUT</a>
-            <a href="/contact" id="contact">CONTACT</a>
-      </div> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="/">SEAN MCPHEETERS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       
-      <h1>WORK</h1>
-
-      <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')">Show All</button>
-        <button class="btn" onclick="filterSelection('nature')">Applications</button>
-        <button class="btn" onclick="filterSelection('cars')">Websites</button>
-        <button class="btn" onclick="filterSelection('people')">Graphics</button>
-      </div>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column nature">
-    <div class="content">
-      <img src="assets/images/americanflag.jpg" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-      <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-      <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-
-  <div class="column cars">
-    <div class="content">
-      <img src="assets/images/counteractionlogo.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-      <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-
-  <div class="column people">
-    <div class="content">
-      <img src="assets/images/camarket.jpg" alt="People" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-      <img src="assets/images/tree.jpg" alt="People" style="width:100%">
-      <h4>Man</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
-      <h4>Woman</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-<!-- END GRID -->
-</div>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <h1>Work</h1>    
+    <div class="container">
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="app">APP</button>
+            <button class="btn btn-default filter-button" data-filter="card">CARD</button>
+            <button class="btn btn-default filter-button" data-filter="icon">ICON</button>
+            <button class="btn btn-default filter-button" data-filter="logo">Logo</button>
+            <button class="btn btn-default filter-button" data-filter="web">Web</button>
+        </div>
+        
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter app" data-cat="app">
+            <img src="assets/images/americanflag.jpg" alt="" class="img-responsive"/>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter card" data-cat="card">
+              <img src="assets/images/camarket.jpg" alt="" class="img-responsive"/>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter icon" data-cat="icon">
+              <img src="assets/images/tree.jpg" alt="" class="img-responsive"/>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter logo" data-cat="logo">
+              <img src="assets/images/wave.jpg" alt="" class="img-responsive"/>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web" data-cat="web">
+              <img src="assets/images/mountainsnow.jpg" alt="" class="img-responsive"/>
+            </div>
+      
+    </div>       
+          <div class="row">
+            <div class="col-md-12">
+              <div id="followme">
+                <h4>FOLLOW ME</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="socialcontent">
+                <a id="github" href="https://github.com/Bostonfan06">GITHUB</a>
+                <a id="stackoverflow" href="https://stackoverflow.com/users/9196384/sean-mcpheeters">STACK</a>
+                <a id="linkedin" href="https://www.linkedin.com/in/sean-mcpheeters-134b1613b/">LINKEDIN</a>
+              </div>
+            </div>
+          </div>
+    
+                    
+                    
+                  
+                    
+                      
+                    
+                      
+                        
+                      
+                        
+                          
+                        
   
-  <div class="row">
-    <div class="col-md-12">
-      <div id="followme">
-        <h4>FOLLOW ME</h4>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="socialcontent">
-        <a id="github" href="https://github.com/Bostonfan06">GITHUB</a>
-        <a id="stackoverflow" href="https://stackoverflow.com/users/9196384/sean-mcpheeters">STACK</a>
-        <a id="linkedin" href="https://www.linkedin.com/in/sean-mcpheeters-134b1613b/">LINKEDIN</a>
-      </div>
-    </div>
-  </div>
-</div>
- 
-<script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  
 
-<script>filterSelection("all") // Execute the function and show all columns
-  function filterSelection(c) {
-    var x, i;
-    x = document.getElementsByClassName("column");
-    if (c == "all") c = "";
-    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-    for (i = 0; i < x.length; i++) {
-      w3RemoveClass(x[i], "show");
-      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
+<script>
+$(document).ready(function(){
+
+$(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
     }
-  }
-  
-  // Show filtered elements
-  function w3AddClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      if (arr1.indexOf(arr2[i]) == -1) {
-        element.className += " " + arr2[i];
-      }
+    else
+    {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
     }
-  }
-  
-  // Hide elements that are not selected
-  function w3RemoveClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      while (arr1.indexOf(arr2[i]) > -1) {
-        arr1.splice(arr1.indexOf(arr2[i]), 1); 
-      }
-    }
-    element.className = arr1.join(" ");
-  }
-  
-  // Add active class to the current button (highlight it)
-  var btnContainer = document.getElementById("myBtnContainer");
-  var btns = btnContainer.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function(){
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }</script>
+});
+
+if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});  
+</script>
 </body>
 </html>
