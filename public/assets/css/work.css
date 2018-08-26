@@ -42,6 +42,11 @@ img {
     width: 100%;
 }
 
+img:hover {
+    background: black;
+    opacity: 0.3
+}
+
 .gallery_product
 {
     margin-bottom: 30px;
