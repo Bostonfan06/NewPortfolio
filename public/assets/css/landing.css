@@ -1,1 +1,15 @@
+.container-fluid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px
+}
 
+.parallax {
+    background-image: url("/assets/images/underwaterwaves.jpg");
+    height: 300px;background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
