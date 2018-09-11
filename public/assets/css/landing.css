@@ -38,6 +38,13 @@ p {
     text-align: center;
 }
 
+.carousel {
+    display: block;
+    width: 75%;
+    margin-left: auto;  
+    margin-right: auto
+}
+
 .socialicons {
     margin-left: auto;
     margin-right: auto;
