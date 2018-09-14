@@ -8,7 +8,7 @@
     <script
 src="https://code.jquery.com/jquery-3.3.1.js"
 integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-crossorigin="anonymous"></script>>
+crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/work.css">
     <title>Work</title>
 </head>
@@ -42,10 +42,8 @@ crossorigin="anonymous"></script>>
       <div align="center">
         <button class="btn btn-default filter-button" data-filter="all">All</button>
         <button class="btn btn-default filter-button" data-filter="app">APP</button>
-        <button class="btn btn-default filter-button" data-filter="card">WEB</button>
-        <button class="btn btn-default filter-button" data-filter="icon">GRAPHICS</button>
-        <button class="btn btn-default filter-button" data-filter="logo">Logo</button>
-        <button class="btn btn-default filter-button" data-filter="web">Web</button>
+        <button class="btn btn-default filter-button" data-filter="web">WEB</button>
+        <button class="btn btn-default filter-button" data-filter="graphic">GRAPHICS</button>
       </div>
       
       <div class="row">
@@ -53,13 +51,7 @@ crossorigin="anonymous"></script>>
           <img src="assets/images/americanflag.jpg" alt="" class="img-responsive"/>
           <h1>AMERICAN TRIVIA</h1>
         </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 filter card" data-filter="card">
-          <img src="assets/images/camarket.jpg" alt="" class="img-responsive"/>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 filter icon" data-filter="icon">
-          <img src="assets/images/tree.jpg" alt="" class="img-responsive"/>
-        </div>
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 filter logo" data-filter="logo">
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 filter graphic" data-filter="logo">
           <img src="assets/images/wave.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 filter web" data-filter="web">
@@ -77,14 +69,14 @@ crossorigin="anonymous"></script>>
               if(value == "all")
               {
                   //$('.filter').removeClass('hidden');
-                  $('.filter').show('1000');
+                  $('.filter').show('500');
               }
               else
               {
           //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
           //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-                  $(".filter").not('.'+value).hide('3000');
-                  $('.filter').filter('.'+value).show('3000');
+                  $(".filter").not('.'+value).hide('500');
+                  $('.filter').filter('.'+value).show('500');
                   
               }
           });
