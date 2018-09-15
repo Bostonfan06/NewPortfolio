@@ -11,21 +11,25 @@ h1 {
 	padding: 40px 0 10px 0;
 }
 
-/*Navigation*/
+
+h6 {
+    color: white
+}
 
 .filter-button
 {
     font-size: 18px;
+    background-color: black;
     border-radius: 5px;
     text-align: center;
-    color: black;
+    color: white;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid white;
+    border: 1px solid grey;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
@@ -34,34 +38,37 @@ h1 {
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #42B32F;
+    background-color: black;
     color: white;
 }
 
 img {
-    display: block;
-    width: 100%;
-    height: auto;
+    width: 100%
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+.gallery_product
+{
+    margin-bottom: 30px;
 }
 
-.container:hover .overlay {
+.overlay:hover {
     opacity: 1;
   }
 
-.text {
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+  .text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -71,38 +78,4 @@ img {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.gallery_product
-{
-    margin-bottom: 30px;
-}
-
-/*Social Media */
-#followme {
-    text-align: center
-}
-
-.socialcontent {
-    margin-left: auto;  
-    margin-right: auto; 
-    text-align: center
-}
-
-#github {
-    background: black;
-    width: 40px;
-    height: 40px;
-}
-
-#stackoverflow {
-    background: black;
-    width: 40px;
-    height: 40px;
-}
-
-#linkedin {
-    background: black;
-    width: 40px;
-    height: 40px;
-}
+  }
