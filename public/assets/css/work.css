@@ -11,13 +11,19 @@ h1 {
 	padding: 40px 0 10px 0;
 }
 
-
-h6 {
-    color: white
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 23px
 }
 
-.filter-button
-{
+p {
+    color: white;
+    text-align: center;
+    font-size: 13px
+}
+
+.filter-button {
     font-size: 18px;
     background-color: black;
     border-radius: 5px;
@@ -26,8 +32,8 @@ h6 {
     margin-bottom: 30px;
 
 }
-.filter-button:hover
-{
+
+.filter-button:hover {
     font-size: 18px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -36,8 +42,8 @@ h6 {
     background-color: black;
 
 }
-.btn-default:active .filter-button:active
-{
+
+.btn-default:active .filter-button:active {
     background-color: black;
     color: white;
 }
@@ -46,8 +52,7 @@ img {
     width: 100%
 }
 
-.gallery_product
-{
+.gallery_product {
     margin-bottom: 30px;
 }
 
@@ -69,6 +74,7 @@ img {
 }
 
   .text {
+    width: 100%;
     color: white;
     font-size: 20px;
     position: absolute;
@@ -79,3 +85,50 @@ img {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  @media only screen and (max-width: 1199.98px){
+      
+    h5 {
+        font-size: 30px
+    }
+
+    p {
+        font-size: 17px;
+        
+    }
+
+  }
+
+  @media only screen and (max-width: 991.98px){
+
+    h5 {
+        font-size: 24px
+    }
+
+    p {
+        font-size: 13px;
+        
+    }
+
+  }
+
+  @media only screen and (max-width: 767.98px){
+
+    .btn-group {
+        height: 90%;
+        vertical-align: text-bottom;
+    }
+
+    .text {
+        height: 100%
+    }
+
+    h5 {
+        font-size: 18px
+    }
+  }
+
+  
+
+
+  
