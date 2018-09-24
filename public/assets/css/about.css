@@ -19,10 +19,13 @@ p {
 }
 
 #me {
-    width: 50%;
-    height: 200px;
-    margin-top: 45px;
-    background: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: white;
+    width: 90%;
+    height: 200px
 }
 
 #followme {
