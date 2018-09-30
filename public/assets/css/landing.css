@@ -20,6 +20,7 @@
 
 h2 {
     text-align: center;
+    margin-top: 10px
 }
 
 .btn {
@@ -30,7 +31,7 @@ h2 {
     padding: 5px
 }
 
-img {
+.img-responsive {
     display: block;
     width: 90%;
     height: 100%;
@@ -43,56 +44,45 @@ p {
     text-align: center;
 }
 
-.carousel {
+.projectimage {
     display: block;
-    width: 75%;
-    margin-left: auto;  
-    margin-right: auto
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-	display: block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-	cursor: pointer;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.container {
-	border-radius: 10px;
-	border-color: white;
-    background-color: whitesmoke;
-    padding: 20px;
-}
-
-.socialicons {
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 100%;
+    height: auto
+}
+
+#socialicons {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+#github {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#linkedin {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;  
+}
+
+#stackoverflow {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 
 footer {
     text-align: center;
     margin-top: 10px
 }
+
 
