@@ -6,7 +6,7 @@
 }
 
 .parallax {
-    background-image: url("/assets/images/underwaterwaves.jpg");
+    background-image: url("/assets/images/hawaiibeach.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -31,6 +31,15 @@ h2 {
     padding: 5px
 }
 
+.samplebtn {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
 .img-responsive {
     display: block;
     width: 90%;
@@ -42,13 +51,26 @@ h2 {
 
 p {
     text-align: center;
+    color: black
+}
+
+#title {
+    text-align: left;
+    color: dimgrey;
+    font-family: monospace;
+}
+
+#description {
+    text-align: left;
+    color: black;
+    font-weight: bold;
 }
 
 .projectimage {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     height: auto
 }
 
