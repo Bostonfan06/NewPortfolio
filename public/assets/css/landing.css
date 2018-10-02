@@ -54,6 +54,12 @@ p {
     color: black
 }
 
+#trd {
+    position: absolute;
+    top: 25%;
+    left: 5%
+}
+
 #title {
     text-align: left;
     color: dimgrey;
@@ -68,6 +74,7 @@ p {
 
 #role {
     text-align: left;
+    font-style: italic
 }
 
 .projectimage {
@@ -75,6 +82,14 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    height: auto
+}
+
+.iphoneimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
     height: auto
 }
 
