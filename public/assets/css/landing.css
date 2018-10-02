@@ -170,31 +170,71 @@ footer {
         text-align: center
     }
 }
-@media only screen and (min-width: 768px){
+
+@media only screen and (max-width: 575.98px){
+
     #trd1 {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0
     }
 
     #trd2 {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0
     }
 
     #trd3 {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0
     }
 
     #title {
-        text-align: left
+        text-align: center
     }
 
     #role {
-        text-align: left
+        text-align: center
+    }
+
+    #description {
+        text-align: center
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    
+    h2 {
+        margin-top: 0
+    }
+    
+    #trd1 {
+        position: absolute;
+        top: 0;
+        left: 7%
+    }
+
+    #trd2 {
+        position: absolute;
+        top: 5%;
+        left: 7%
+    }
+
+    #trd3 {
+        position: absolute;
+        top: 0;
+        left: 7%
+    }
+
+    #title {
+        text-align: left;
+        font-size: 20px
+    }
+
+    #role {
+        text-align: left;
+        font-size: 15px
     }
 
     #description {
