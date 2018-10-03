@@ -5,7 +5,14 @@ body {
 h4 {
     color: white;
     margin-top: 20px;
-    text-align: center
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #aboutcontent {
@@ -23,6 +30,47 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 60%
+}
+
+#socialicons {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+#github {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#linkedin {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;  
+}
+
+#stackoverflow {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#twitter {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 5px
 }
 
 

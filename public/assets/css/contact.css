@@ -6,12 +6,15 @@ body {font-family: Arial, Helvetica, sans-serif;
 h3 {
 	text-align: center;
 	color: white;
-	margin-top: 10px
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 
 h5 {
 	text-align: center;
-	color: white
+    color: orangered;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 input[type=text], select, textarea {
