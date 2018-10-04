@@ -3,10 +3,11 @@ body {
 }
 
 h4 {
-    color: white;
+    color: orangered;
     margin-top: 20px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px
 }
 
 h3 {
@@ -21,8 +22,16 @@ h3 {
     text-align: center
 }
 
+h5 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px
+}
+
 p {
-    color: white
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 img {
