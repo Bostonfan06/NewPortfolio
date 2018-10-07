@@ -23,16 +23,15 @@ h1 {
 }
 
 .filter-button {
-    font-size: 18px;
-    background-color: black;
+    font-size: 15px;
+    background-color: orangered;
     border-radius: 5px;
     text-align: center;
     color: white;
 }
 
 .filter-button:hover {
-    font-size: 18px;
-    border: 1px solid grey;
+    font-size: 15px;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
