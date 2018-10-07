@@ -13,7 +13,7 @@ h3 {
 
 h5 {
 	text-align: center;
-    color: orangered;
+    color: red;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -30,7 +30,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
 	display: block;
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -42,7 +42,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 .container {

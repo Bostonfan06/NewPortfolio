@@ -30,6 +30,10 @@ body {
     margin-top: 20%;
 }
 
+.btn-danger:hover {
+    background-color: red
+}
+
 h1 {
     font-size: 70px
 }
