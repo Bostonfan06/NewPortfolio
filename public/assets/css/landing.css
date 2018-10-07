@@ -35,6 +35,10 @@ h2 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#skills {
+    color: red
+}
+
 .btn {
     display: block;
     width: 90%; 
