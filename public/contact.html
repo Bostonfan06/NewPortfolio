@@ -7,6 +7,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link type="text/php" href="assets/php/mail.php">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
     <title>Contact</title>
 </head>
@@ -38,17 +39,15 @@
         <h3>Contact Form</h3>
         <h5>Ready to work together on a project, send me a message and we can go over anything you want!</h5>
       <div class="container">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="First Name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Last Name..">
-      
-          <label for="message">Message</label>
+        <form action="/mail.php" method="post">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Name..">
+          <label>Email</label>
+          <input type="text" name="email" placeholder="Email..">
+          <label>Message</label>
           <textarea id="message" name="message" placeholder="Message.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input type="submit" value="Send" type="reset" value="Clear">
         </form>
       </div>
       </div>                 
