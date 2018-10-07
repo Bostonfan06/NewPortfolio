@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/assets/images/nebula.jpg");
+    background-image: url("/assets/images/SMLOGO.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,10 +14,20 @@ body {
 #title {
     display: block;
     text-align: center;
-    color: white;
-    margin-left: auto;  
+    margin-left: auto;
     margin-right: auto;
-    padding-top: 250px;
+    margin-top: 20%;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+    width: 15%;
+    height: 55px;
+    margin-left: 23%;
+    margin-top: 20%;
 }
 
 h1 {

@@ -6,8 +6,8 @@
 }
 
 .parallax {
-    background-image: url("/assets/images/full_moon_dark_mountains.jpg");
-    height: 500px;
+    background-image: url("/assets/images/abstract.jpg");
+    height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
