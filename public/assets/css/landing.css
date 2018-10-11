@@ -1,5 +1,4 @@
 .container-fluid {
-    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
@@ -30,6 +29,16 @@ h1 {
     font-weight: lighter
 }
 
+.learnbtn {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 h2 {
     text-align: center;
     margin-top: 10px;
@@ -50,10 +59,10 @@ h2 {
 
 .enterbtn {
     display: block;
-    width: 40%;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 10px;
     font-family: 'Roboto Condensed', sans-serif;
 }
