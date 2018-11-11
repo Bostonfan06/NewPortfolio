@@ -6,6 +6,14 @@
     z-index: 0;
 }
 
+#cont1 {
+    background-color: rgb(19, 19, 19)
+}
+
+#head1 {
+    color: white
+}
+
 .navbar {
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
@@ -17,8 +25,6 @@
 .row {
     margin-top: 10px;
 }
-
-
 
 h1 {
     text-align: center;
@@ -48,8 +54,18 @@ h2 {
 }
 
 #skills {
+    color: white
+}
+
+i {
     color: red
 }
+
+#job1 {
+    color: white
+}
+
+
 
 .btn {
     display: block;
