@@ -16,38 +16,3 @@ h5 {
     color: red;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-	display: block;
-    background-color: red;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-	cursor: pointer;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto
-}
-
-input[type=submit]:hover {
-    background-color: red;
-}
-
-.container {
-	border-radius: 10px;
-	border-color: white;
-    background-color: whitesmoke;
-    padding: 20px;
-}
