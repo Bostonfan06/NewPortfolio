@@ -38,6 +38,90 @@ h1 {
     font-size: 70px
 }
 
+/*Mobile SM*/
+@media only screen and (max-width: 320px){
+    .btn-danger {
+        color: #fff;
+        background-color: black;
+        border-color: white;
+        border-radius: 10px;
+        width: 25%;
+        height: 55px;
+        margin-left: 40%;
+        margin-top: 75%;
+    }
+} 
+
+/*Mobile M*/
+@media only screen and (min-width: 321px) and (max-width: 375px){
+    .btn-danger {
+        color: #fff;
+        background-color: black;
+        border-color: white;
+        border-radius: 10px;
+        width: 25%;
+        height: 55px;
+        margin-left: 33%;
+        margin-top: 60%;
+    }
+} 
+
+/*Mobile L*/
+@media only screen and (min-width: 376px) and (max-width: 425px){
+    .btn-danger {
+        color: #fff;
+        background-color: black;
+        border-color: white;
+        border-radius: 10px;
+        width: 25%;
+        height: 55px;
+        margin-left: 29%;
+        margin-top: 50%;
+    }
+} 
+
+/*Tablet*/
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .btn-danger {
+        color: #fff;
+        background-color: black;
+        border-color: white;
+        border-radius: 10px;
+        width: 20%;
+        height: 55px;
+        margin-left: 24%;
+        margin-top: 22%;
+    }
+} 
+
+/*Laptop*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .btn-danger {
+        color: #fff;
+        background-color: black;
+        border-color: white;
+        border-radius: 10px;
+        width: 20%;
+        height: 55px;
+        margin-left: 23%;
+        margin-top: 15%;
+    }
+} 
+
+/*Laptop Lg*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    .btn-danger {
+        color: #fff;
+        background-color: black;
+        border-color: white;
+        border-radius: 10px;
+        width: 20%;
+        height: 55px;
+        margin-left: 24%;
+        margin-top: 10%;
+    }
+} 
+
 
 
 
